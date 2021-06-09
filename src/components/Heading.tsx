@@ -1,7 +1,7 @@
 import { Heading as ChakraHeading, HeadingProps as ChakraHeadingProps } from "@chakra-ui/react";
 
 interface HeadingProps extends ChakraHeadingProps {
-  children: string
+  children: any
 }
 
 export function Heading({ children, ...rest }: HeadingProps) {
